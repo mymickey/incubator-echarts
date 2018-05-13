@@ -31,7 +31,7 @@ import {
     isArrayLike,
     extend,
     assert
-} from 'zrender/src/core/util';
+} from '@okfe/zrender/src/core/util';
 import {getDataItemValue} from '../../util/model';
 import Source from '../Source';
 

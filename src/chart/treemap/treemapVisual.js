@@ -18,8 +18,8 @@
 */
 
 import VisualMapping from '../../visual/VisualMapping';
-import * as zrColor from 'zrender/src/tool/color';
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrColor from '@okfe/zrender/src/tool/color';
+import * as zrUtil from '@okfe/zrender/src/core/util';
 
 var isArray = zrUtil.isArray;
 

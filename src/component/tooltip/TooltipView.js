@@ -18,8 +18,8 @@
 */
 
 import * as echarts from '../../echarts';
-import * as zrUtil from 'zrender/src/core/util';
-import env from 'zrender/src/core/env';
+import * as zrUtil from '@okfe/zrender/src/core/util';
+import env from '@okfe/zrender/src/core/env';
 import TooltipContent from './TooltipContent';
 import * as formatUtil from '../../util/format';
 import * as numberUtil from '../../util/number';

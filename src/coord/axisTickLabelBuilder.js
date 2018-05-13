@@ -17,8 +17,8 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
-import * as textContain from 'zrender/src/contain/text';
+import * as zrUtil from '@okfe/zrender/src/core/util';
+import * as textContain from '@okfe/zrender/src/contain/text';
 import {makeInner} from '../util/model';
 import {makeLabelFormatter} from './axisHelper';
 

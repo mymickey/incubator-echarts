@@ -17,8 +17,8 @@
 * under the License.
 */
 
-import * as polygonContain from 'zrender/src/contain/polygon';
-import BoundingRect from 'zrender/src/core/BoundingRect';
+import * as polygonContain from '@okfe/zrender/src/contain/polygon';
+import BoundingRect from '@okfe/zrender/src/core/BoundingRect';
 
 // Key of the first level is brushType: `line`, `rect`, `polygon`.
 // Key of the second level is chart element type: `point`, `rect`.

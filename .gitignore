@@ -173,3 +173,4 @@ todo
 **/*.log
 *.sublime-workspace
 *.sublime-project
+package-lock.json

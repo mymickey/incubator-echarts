@@ -9553,6 +9553,9 @@ var Animation = function (options) {
 
     this.stage = options.stage || {};
 
+    // 动画的间隔时间，为了降低CPU占用率
+    this._animationLoopDelta = options.animationLoopDelta || 0;
+
     this.onframe = options.onframe || function() {};
 
     // private properties
@@ -9671,11 +9674,19 @@ Animation.prototype = {
         this._running = true;
 
         function step() {
-            if (self._running) {
-
-                requestAnimationFrame(step);
-
-                !self._paused && self._update();
+            if (self._running) {  
+                if (-1 === self._animationLoopDelta) {
+                    return;
+                }  
+                if (0 === self._animationLoopDelta) {
+                    requestAnimationFrame(step);
+                    !self._paused && self._update();
+                } else {
+                    setTimeout(function () {
+                        requestAnimationFrame(step);
+                        !self._paused && self._update();   
+                    }, self._animationLoopDelta);
+                }
             }
         }
 
@@ -24501,6 +24512,7 @@ function ECharts(dom, theme$$1, opts) {
      * @private
      */
     var zr = this._zr = init$1(dom, {
+        animationLoopDelta: opts.animationLoopDelta,
         renderer: opts.renderer || defaultRenderer,
         devicePixelRatio: opts.devicePixelRatio,
         width: opts.width,
