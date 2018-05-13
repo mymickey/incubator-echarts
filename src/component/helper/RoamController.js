@@ -17,9 +17,9 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
-import Eventful from 'zrender/src/mixin/Eventful';
-import * as eventTool from 'zrender/src/core/event';
+import * as zrUtil from '@okfe/zrender/src/core/util';
+import Eventful from '@okfe/zrender/src/mixin/Eventful';
+import * as eventTool from '@okfe/zrender/src/core/event';
 import * as interactionMutex from './interactionMutex';
 
 /**

@@ -1,23 +1,3 @@
-
-/*
-* Licensed to the Apache Software Foundation (ASF) under one
-* or more contributor license agreements.  See the NOTICE file
-* distributed with this work for additional information
-* regarding copyright ownership.  The ASF licenses this file
-* to you under the Apache License, Version 2.0 (the
-* "License"); you may not use this file except in compliance
-* with the License.  You may obtain a copy of the License at
-*
-*   http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing,
-* software distributed under the License is distributed on an
-* "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-* KIND, either express or implied.  See the License for the
-* specific language governing permissions and limitations
-* under the License.
-*/
-
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('echarts')) :
 	typeof define === 'function' && define.amd ? define(['exports', 'echarts'], factory) :
@@ -578,6 +558,264 @@ var quantile = function(ascArr, p) {
         e = H - h;
     return e ? v + e * (ascArr[h] - v) : v;
 };
+
+/**
+ * @module zrender/core/util
+ */
+
+// 用于处理merge时无法遍历Date等对象的问题
+
+
+/**
+ * Those data types can be cloned:
+ *     Plain object, Array, TypedArray, number, string, null, undefined.
+ * Those data types will be assgined using the orginal data:
+ *     BUILTIN_OBJECT
+ * Instance of user defined class will be cloned to a plain object, without
+ * properties in prototype.
+ * Other data types is not supported (not sure what will happen).
+ *
+ * Caution: do not support clone Date, for performance consideration.
+ * (There might be a large number of date in `series.data`).
+ * So date should not be modified in and out of echarts.
+ *
+ * @param {*} source
+ * @return {*} new
+ */
+
+
+/**
+ * @memberOf module:zrender/core/util
+ * @param {*} target
+ * @param {*} source
+ * @param {boolean} [overwrite=false]
+ */
+
+
+/**
+ * @param {Array} targetAndSources The first item is target, and the rests are source.
+ * @param {boolean} [overwrite=false]
+ * @return {*} target
+ */
+
+
+/**
+ * @param {*} target
+ * @param {*} source
+ * @memberOf module:zrender/core/util
+ */
+
+
+/**
+ * @param {*} target
+ * @param {*} source
+ * @param {boolean} [overlay=false]
+ * @memberOf module:zrender/core/util
+ */
+
+
+
+
+
+
+/**
+ * 查询数组中元素的index
+ * @memberOf module:zrender/core/util
+ */
+
+
+/**
+ * 构造类继承关系
+ *
+ * @memberOf module:zrender/core/util
+ * @param {Function} clazz 源类
+ * @param {Function} baseClazz 基类
+ */
+
+
+/**
+ * @memberOf module:zrender/core/util
+ * @param {Object|Function} target
+ * @param {Object|Function} sorce
+ * @param {boolean} overlay
+ */
+
+
+/**
+ * Consider typed array.
+ * @param {Array|TypedArray} data
+ */
+
+
+/**
+ * 数组或对象遍历
+ * @memberOf module:zrender/core/util
+ * @param {Object|Array} obj
+ * @param {Function} cb
+ * @param {*} [context]
+ */
+
+
+/**
+ * 数组映射
+ * @memberOf module:zrender/core/util
+ * @param {Array} obj
+ * @param {Function} cb
+ * @param {*} [context]
+ * @return {Array}
+ */
+
+
+/**
+ * @memberOf module:zrender/core/util
+ * @param {Array} obj
+ * @param {Function} cb
+ * @param {Object} [memo]
+ * @param {*} [context]
+ * @return {Array}
+ */
+
+
+/**
+ * 数组过滤
+ * @memberOf module:zrender/core/util
+ * @param {Array} obj
+ * @param {Function} cb
+ * @param {*} [context]
+ * @return {Array}
+ */
+
+
+/**
+ * 数组项查找
+ * @memberOf module:zrender/core/util
+ * @param {Array} obj
+ * @param {Function} cb
+ * @param {*} [context]
+ * @return {*}
+ */
+
+
+/**
+ * @memberOf module:zrender/core/util
+ * @param {Function} func
+ * @param {*} context
+ * @return {Function}
+ */
+
+
+/**
+ * @memberOf module:zrender/core/util
+ * @param {Function} func
+ * @return {Function}
+ */
+
+
+/**
+ * @memberOf module:zrender/core/util
+ * @param {*} value
+ * @return {boolean}
+ */
+
+
+/**
+ * @memberOf module:zrender/core/util
+ * @param {*} value
+ * @return {boolean}
+ */
+
+
+/**
+ * @memberOf module:zrender/core/util
+ * @param {*} value
+ * @return {boolean}
+ */
+
+
+/**
+ * @memberOf module:zrender/core/util
+ * @param {*} value
+ * @return {boolean}
+ */
+
+
+/**
+ * @memberOf module:zrender/core/util
+ * @param {*} value
+ * @return {boolean}
+ */
+
+
+/**
+ * @memberOf module:zrender/core/util
+ * @param {*} value
+ * @return {boolean}
+ */
+
+
+/**
+ * @memberOf module:zrender/core/util
+ * @param {*} value
+ * @return {boolean}
+ */
+
+
+/**
+ * Whether is exactly NaN. Notice isNaN('a') returns true.
+ * @param {*} value
+ * @return {boolean}
+ */
+
+
+/**
+ * If value1 is not null, then return value1, otherwise judget rest of values.
+ * Low performance.
+ * @memberOf module:zrender/core/util
+ * @return {*} Final value
+ */
+
+
+
+
+
+
+/**
+ * @memberOf module:zrender/core/util
+ * @param {Array} arr
+ * @param {number} startIndex
+ * @param {number} endIndex
+ * @return {Array}
+ */
+
+
+/**
+ * Normalize css liked array configuration
+ * e.g.
+ *  3 => [3, 3, 3, 3]
+ *  [4, 2] => [4, 2, 4, 2]
+ *  [4, 3, 2] => [4, 3, 2, 3]
+ * @param {number|Array.<number>} val
+ * @return {Array.<number>}
+ */
+
+
+/**
+ * @memberOf module:zrender/core/util
+ * @param {boolean} condition
+ * @param {string} message
+ */
+
+
+/**
+ * @memberOf module:zrender/core/util
+ * @param {string} str string to be trimed
+ * @return {string} trimed string
+ */
+
+
+/**
+ * Set an object as primitive to be ignored traversing children in clone or merge
+ */
 
 /*
 * Licensed to the Apache Software Foundation (ASF) under one

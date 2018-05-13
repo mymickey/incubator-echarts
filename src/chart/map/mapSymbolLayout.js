@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@okfe/zrender/src/core/util';
 
 export default function (ecModel) {
 

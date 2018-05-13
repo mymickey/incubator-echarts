@@ -26,7 +26,7 @@ import SeriesModel from '../../model/Series';
 import createDimensions from '../../data/helper/createDimensions';
 import {getDimensionTypeByAxis} from '../../data/helper/dimensionHelper';
 import List from '../../data/List';
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@okfe/zrender/src/core/util';
 import {encodeHTML} from '../../util/format';
 import nest from '../../util/array/nest';
 

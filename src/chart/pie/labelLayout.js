@@ -19,7 +19,7 @@
 
 // FIXME emphasis label position is not same with normal label position
 
-import * as textContain from 'zrender/src/contain/text';
+import * as textContain from '@okfe/zrender/src/contain/text';
 
 function adjustSingleSide(list, cx, cy, r, dir, viewWidth, viewHeight) {
     list.sort(function (a, b) {

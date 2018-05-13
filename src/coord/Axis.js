@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import {each, map} from 'zrender/src/core/util';
+import {each, map} from '@okfe/zrender/src/core/util';
 import {linearMap, getPixelPrecision} from '../util/number';
 import {
     createAxisTicks,

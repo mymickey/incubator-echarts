@@ -19,7 +19,7 @@
 
 import createListSimply from '../helper/createListSimply';
 import SeriesModel from '../../model/Series';
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@okfe/zrender/src/core/util';
 
 var GaugeSeries = SeriesModel.extend({
 

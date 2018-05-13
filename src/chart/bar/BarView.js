@@ -19,12 +19,12 @@
 
 import {__DEV__} from '../../config';
 import * as echarts from '../../echarts';
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@okfe/zrender/src/core/util';
 import * as graphic from '../../util/graphic';
 import {setLabel} from './helper';
 import Model from '../../model/Model';
 import barItemStyle from './barItemStyle';
-import Path from 'zrender/src/graphic/Path';
+import Path from '@okfe/zrender/src/graphic/Path';
 
 var BAR_BORDER_WIDTH_QUERY = ['itemStyle', 'barBorderWidth'];
 

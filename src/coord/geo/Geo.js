@@ -17,8 +17,8 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
-import BoundingRect from 'zrender/src/core/BoundingRect';
+import * as zrUtil from '@okfe/zrender/src/core/util';
+import BoundingRect from '@okfe/zrender/src/core/BoundingRect';
 import parseGeoJson from './parseGeoJson';
 import View from '../View';
 

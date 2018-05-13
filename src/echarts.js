@@ -17,12 +17,12 @@
 * under the License.
 */
 import {__DEV__} from './config';
-import * as zrender from 'zrender/src/zrender';
-import * as zrUtil from 'zrender/src/core/util';
-import * as colorTool from 'zrender/src/tool/color';
-import env from 'zrender/src/core/env';
-import timsort from 'zrender/src/core/timsort';
-import Eventful from 'zrender/src/mixin/Eventful';
+import * as zrender from '@okfe/zrender/src/zrender';
+import * as zrUtil from '@okfe/zrender/src/core/util';
+import * as colorTool from '@okfe/zrender/src/tool/color';
+import env from '@okfe/zrender/src/core/env';
+import timsort from '@okfe/zrender/src/core/timsort';
+import Eventful from '@okfe/zrender/src/mixin/Eventful';
 import GlobalModel from './model/Global';
 import ExtensionAPI from './ExtensionAPI';
 import CoordinateSystemManager from './CoordinateSystem';
@@ -152,6 +152,7 @@ function ECharts(dom, theme, opts) {
      * @private
      */
     var zr = this._zr = zrender.init(dom, {
+        animationLoopDelta: opts.animationLoopDelta,
         renderer: opts.renderer || defaultRenderer,
         devicePixelRatio: opts.devicePixelRatio,
         width: opts.width,
