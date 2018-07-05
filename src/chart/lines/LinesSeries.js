@@ -20,7 +20,7 @@
 import {__DEV__} from '../../config';
 import SeriesModel from '../../model/Series';
 import List from '../../data/List';
-import { concatArray, mergeAll, map } from '@okfe/zrender/src/core/util';
+import { concatArray, mergeAll, map } from '@ok/zrender/src/core/util';
 import {encodeHTML} from '../../util/format';
 import CoordinateSystem from '../../CoordinateSystem';
 

@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import * as zrUtil from '@okfe/zrender/src/core/util';
+import * as zrUtil from '@ok/zrender/src/core/util';
 import createListFromArray from './chart/helper/createListFromArray';
 // import createGraphFromNodeEdge from './chart/helper/createGraphFromNodeEdge';
 import * as axisHelper from './coord/axisHelper';

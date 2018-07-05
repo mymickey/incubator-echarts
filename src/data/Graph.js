@@ -25,7 +25,7 @@
  */
 
 import {__DEV__} from '../config';
-import * as zrUtil from '@okfe/zrender/src/core/util';
+import * as zrUtil from '@ok/zrender/src/core/util';
 import {enableClassCheck} from '../util/clazz';
 
 // id may be function name of Object, add a prefix to avoid this problem.

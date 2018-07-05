@@ -19,7 +19,7 @@
 
 import {__DEV__} from '../../config';
 import * as echarts from '../../echarts';
-import * as zrUtil from '@okfe/zrender/src/core/util';
+import * as zrUtil from '@ok/zrender/src/core/util';
 import * as visualSolution from '../../visual/visualSolution';
 import Model from '../../model/Model';
 

@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import * as textContain from '@okfe/zrender/src/contain/text';
+import * as textContain from '@ok/zrender/src/contain/text';
 import * as graphicUtil from '../../util/graphic';
 
 var PATH_COLOR = ['textStyle', 'color'];

@@ -17,8 +17,8 @@
 * under the License.
 */
 
-import {each} from '@okfe/zrender/src/core/util';
-import Group from '@okfe/zrender/src/container/Group';
+import {each} from '@ok/zrender/src/core/util';
+import Group from '@ok/zrender/src/container/Group';
 import * as componentUtil from '../util/component';
 import * as clazzUtil from '../util/clazz';
 import * as modelUtil from '../util/model';

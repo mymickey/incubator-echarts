@@ -17,9 +17,9 @@
 * under the License.
 */
 
-import * as zrUtil from '@okfe/zrender/src/core/util';
-import BoundingRect from '@okfe/zrender/src/core/BoundingRect';
-import * as matrix from '@okfe/zrender/src/core/matrix';
+import * as zrUtil from '@ok/zrender/src/core/util';
+import BoundingRect from '@ok/zrender/src/core/BoundingRect';
+import * as matrix from '@ok/zrender/src/core/matrix';
 import * as graphic from '../../util/graphic';
 import * as layout from '../../util/layout';
 import TimelineView from './TimelineView';

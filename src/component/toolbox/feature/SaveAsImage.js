@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import env from '@okfe/zrender/src/core/env';
+import env from '@ok/zrender/src/core/env';
 import lang from '../../../lang';
 import * as featureManager from '../featureManager';
 

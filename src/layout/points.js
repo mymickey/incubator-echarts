@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import {map} from '@okfe/zrender/src/core/util';
+import {map} from '@ok/zrender/src/core/util';
 import createRenderPlanner from '../chart/helper/createRenderPlanner';
 import {isDimensionStacked} from '../data/helper/dataStackHelper';
 

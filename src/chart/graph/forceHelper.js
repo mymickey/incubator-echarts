@@ -24,7 +24,7 @@
 * <echarts/src/licenses/LICENSE-d3>).
 */
 
-import * as vec2 from '@okfe/zrender/src/core/vector';
+import * as vec2 from '@ok/zrender/src/core/vector';
 
 var scaleAndAdd = vec2.scaleAndAdd;
 

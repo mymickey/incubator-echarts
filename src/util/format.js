@@ -17,8 +17,8 @@
 * under the License.
 */
 
-import * as zrUtil from '@okfe/zrender/src/core/util';
-import * as textContain from '@okfe/zrender/src/contain/text';
+import * as zrUtil from '@ok/zrender/src/core/util';
+import * as textContain from '@ok/zrender/src/contain/text';
 import * as numberUtil from './number';
 
 /**

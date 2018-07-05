@@ -18,8 +18,8 @@
 */
 
 import {__DEV__} from '../config';
-import * as zrUtil from '@okfe/zrender/src/core/util';
-import env from '@okfe/zrender/src/core/env';
+import * as zrUtil from '@ok/zrender/src/core/util';
+import env from '@ok/zrender/src/core/env';
 import {
     formatTime,
     encodeHTML,

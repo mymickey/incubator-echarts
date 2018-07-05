@@ -19,7 +19,7 @@
 
 import {__DEV__} from '../../config';
 import * as echarts from '../../echarts';
-import * as zrUtil from '@okfe/zrender/src/core/util';
+import * as zrUtil from '@ok/zrender/src/core/util';
 import {createSymbol} from '../../util/symbol';
 import * as graphic from '../../util/graphic';
 import {makeBackground} from '../helper/listComponent';

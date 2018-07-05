@@ -17,12 +17,12 @@
 * under the License.
 */
 import {__DEV__} from './config';
-import * as zrender from '@okfe/zrender/src/zrender';
-import * as zrUtil from '@okfe/zrender/src/core/util';
-import * as colorTool from '@okfe/zrender/src/tool/color';
-import env from '@okfe/zrender/src/core/env';
-import timsort from '@okfe/zrender/src/core/timsort';
-import Eventful from '@okfe/zrender/src/mixin/Eventful';
+import * as zrender from '@ok/zrender/src/zrender';
+import * as zrUtil from '@ok/zrender/src/core/util';
+import * as colorTool from '@ok/zrender/src/tool/color';
+import env from '@ok/zrender/src/core/env';
+import timsort from '@ok/zrender/src/core/timsort';
+import Eventful from '@ok/zrender/src/mixin/Eventful';
 import GlobalModel from './model/Global';
 import ExtensionAPI from './ExtensionAPI';
 import CoordinateSystemManager from './CoordinateSystem';

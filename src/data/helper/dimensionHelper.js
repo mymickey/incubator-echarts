@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import {each, createHashMap, assert} from '@okfe/zrender/src/core/util';
+import {each, createHashMap, assert} from '@ok/zrender/src/core/util';
 import { __DEV__ } from '../../config';
 
 export var OTHER_DIMENSIONS = createHashMap([

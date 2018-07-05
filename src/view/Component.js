@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import Group from '@okfe/zrender/src/container/Group';
+import Group from '@ok/zrender/src/container/Group';
 import * as componentUtil from '../util/component';
 import * as clazzUtil from '../util/clazz';
 

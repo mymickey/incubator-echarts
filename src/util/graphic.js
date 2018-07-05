@@ -17,30 +17,30 @@
 * under the License.
 */
 
-import * as zrUtil from '@okfe/zrender/src/core/util';
-import * as pathTool from '@okfe/zrender/src/tool/path';
-import * as colorTool from '@okfe/zrender/src/tool/color';
-import * as matrix from '@okfe/zrender/src/core/matrix';
-import * as vector from '@okfe/zrender/src/core/vector';
-import Path from '@okfe/zrender/src/graphic/Path';
-import Transformable from '@okfe/zrender/src/mixin/Transformable';
-import ZImage from '@okfe/zrender/src/graphic/Image';
-import Group from '@okfe/zrender/src/container/Group';
-import Text from '@okfe/zrender/src/graphic/Text';
-import Circle from '@okfe/zrender/src/graphic/shape/Circle';
-import Sector from '@okfe/zrender/src/graphic/shape/Sector';
-import Ring from '@okfe/zrender/src/graphic/shape/Ring';
-import Polygon from '@okfe/zrender/src/graphic/shape/Polygon';
-import Polyline from '@okfe/zrender/src/graphic/shape/Polyline';
-import Rect from '@okfe/zrender/src/graphic/shape/Rect';
-import Line from '@okfe/zrender/src/graphic/shape/Line';
-import BezierCurve from '@okfe/zrender/src/graphic/shape/BezierCurve';
-import Arc from '@okfe/zrender/src/graphic/shape/Arc';
-import CompoundPath from '@okfe/zrender/src/graphic/CompoundPath';
-import LinearGradient from '@okfe/zrender/src/graphic/LinearGradient';
-import RadialGradient from '@okfe/zrender/src/graphic/RadialGradient';
-import BoundingRect from '@okfe/zrender/src/core/BoundingRect';
-import IncrementalDisplayable from '@okfe/zrender/src/graphic/IncrementalDisplayable';
+import * as zrUtil from '@ok/zrender/src/core/util';
+import * as pathTool from '@ok/zrender/src/tool/path';
+import * as colorTool from '@ok/zrender/src/tool/color';
+import * as matrix from '@ok/zrender/src/core/matrix';
+import * as vector from '@ok/zrender/src/core/vector';
+import Path from '@ok/zrender/src/graphic/Path';
+import Transformable from '@ok/zrender/src/mixin/Transformable';
+import ZImage from '@ok/zrender/src/graphic/Image';
+import Group from '@ok/zrender/src/container/Group';
+import Text from '@ok/zrender/src/graphic/Text';
+import Circle from '@ok/zrender/src/graphic/shape/Circle';
+import Sector from '@ok/zrender/src/graphic/shape/Sector';
+import Ring from '@ok/zrender/src/graphic/shape/Ring';
+import Polygon from '@ok/zrender/src/graphic/shape/Polygon';
+import Polyline from '@ok/zrender/src/graphic/shape/Polyline';
+import Rect from '@ok/zrender/src/graphic/shape/Rect';
+import Line from '@ok/zrender/src/graphic/shape/Line';
+import BezierCurve from '@ok/zrender/src/graphic/shape/BezierCurve';
+import Arc from '@ok/zrender/src/graphic/shape/Arc';
+import CompoundPath from '@ok/zrender/src/graphic/CompoundPath';
+import LinearGradient from '@ok/zrender/src/graphic/LinearGradient';
+import RadialGradient from '@ok/zrender/src/graphic/RadialGradient';
+import BoundingRect from '@ok/zrender/src/core/BoundingRect';
+import IncrementalDisplayable from '@ok/zrender/src/graphic/IncrementalDisplayable';
 
 
 var round = Math.round;

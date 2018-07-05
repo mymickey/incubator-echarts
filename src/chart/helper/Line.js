@@ -21,8 +21,8 @@
  * @module echarts/chart/helper/Line
  */
 
-import * as zrUtil from '@okfe/zrender/src/core/util';
-import * as vector from '@okfe/zrender/src/core/vector';
+import * as zrUtil from '@ok/zrender/src/core/util';
+import * as vector from '@ok/zrender/src/core/vector';
 import * as symbolUtil from '../../util/symbol';
 import LinePath from './LinePath';
 import * as graphic from '../../util/graphic';

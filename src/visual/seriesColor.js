@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import Gradient from '@okfe/zrender/src/graphic/Gradient';
+import Gradient from '@ok/zrender/src/graphic/Gradient';
 
 export default {
     createOnAllSeries: true,

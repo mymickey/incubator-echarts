@@ -25,7 +25,7 @@
  * @module
  */
 
-import * as zrUtil from '@okfe/zrender/src/core/util';
+import * as zrUtil from '@ok/zrender/src/core/util';
 
 var GRADIENT_LEVELS = 256;
 

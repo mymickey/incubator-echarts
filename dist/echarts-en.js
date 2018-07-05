@@ -41519,7 +41519,7 @@ extendChartView({
 * under the License.
 */
 
-// import * as zrUtil from '@okfe/zrender/src/core/util';
+// import * as zrUtil from '@ok/zrender/src/core/util';
 
 // In case developer forget to include grid component
 registerVisual(visualSymbol('scatter', 'circle'));
@@ -51535,7 +51535,7 @@ inherits(Line$1, Group);
  * @module echarts/chart/helper/LineDraw
  */
 
-// import IncrementalDisplayable from '@okfe/zrender/src/graphic/IncrementalDisplayable';
+// import IncrementalDisplayable from '@ok/zrender/src/graphic/IncrementalDisplayable';
 
 /**
  * @alias module:echarts/component/marker/LineDraw

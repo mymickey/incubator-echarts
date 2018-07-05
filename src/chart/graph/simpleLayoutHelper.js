@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import * as vec2 from '@okfe/zrender/src/core/vector';
+import * as vec2 from '@ok/zrender/src/core/vector';
 
 export function simpleLayout(seriesModel) {
     var coordSys = seriesModel.coordinateSystem;

@@ -17,10 +17,10 @@
 * under the License.
 */
 
-import * as zrUtil from '@okfe/zrender/src/core/util';
+import * as zrUtil from '@ok/zrender/src/core/util';
 import ChartView from '../../view/Chart';
 import * as graphic from '../../util/graphic';
-import Path from '@okfe/zrender/src/graphic/Path';
+import Path from '@ok/zrender/src/graphic/Path';
 
 // Update common properties
 var NORMAL_ITEM_STYLE_PATH = ['itemStyle'];

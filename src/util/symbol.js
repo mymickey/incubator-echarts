@@ -19,9 +19,9 @@
 
 // Symbol factory
 
-import * as zrUtil from '@okfe/zrender/src/core/util';
+import * as zrUtil from '@ok/zrender/src/core/util';
 import * as graphic from './graphic';
-import BoundingRect from '@okfe/zrender/src/core/BoundingRect';
+import BoundingRect from '@ok/zrender/src/core/BoundingRect';
 
 /**
  * Triangle shape

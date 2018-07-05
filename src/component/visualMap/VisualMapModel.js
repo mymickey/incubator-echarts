@@ -18,8 +18,8 @@
 */
 
 import * as echarts from '../../echarts';
-import * as zrUtil from '@okfe/zrender/src/core/util';
-import env from '@okfe/zrender/src/core/env';
+import * as zrUtil from '@ok/zrender/src/core/util';
+import env from '@ok/zrender/src/core/env';
 import visualDefault from '../../visual/visualDefault';
 import VisualMapping from '../../visual/VisualMapping';
 import * as visualSolution from '../../visual/visualSolution';

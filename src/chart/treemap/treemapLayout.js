@@ -25,8 +25,8 @@
 * <echarts/src/licenses/LICENSE-d3>).
 */
 
-import * as zrUtil from '@okfe/zrender/src/core/util';
-import BoundingRect from '@okfe/zrender/src/core/BoundingRect';
+import * as zrUtil from '@ok/zrender/src/core/util';
+import BoundingRect from '@ok/zrender/src/core/BoundingRect';
 import {parsePercent, MAX_SAFE_INTEGER} from '../../util/number';
 import * as layout from '../../util/layout';
 import * as helper from '../helper/treeHelper';

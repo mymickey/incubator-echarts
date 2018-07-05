@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import {each, createHashMap} from '@okfe/zrender/src/core/util';
+import {each, createHashMap} from '@ok/zrender/src/core/util';
 import SeriesModel from '../../model/Series';
 import createListFromArray from '../helper/createListFromArray';
 

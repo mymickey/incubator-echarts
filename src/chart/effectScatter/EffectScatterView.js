@@ -20,7 +20,7 @@
 import * as echarts from '../../echarts';
 import SymbolDraw from '../helper/SymbolDraw';
 import EffectSymbol from '../helper/EffectSymbol';
-import * as matrix from '@okfe/zrender/src/core/matrix';
+import * as matrix from '@ok/zrender/src/core/matrix';
 
 import pointsLayout from '../../layout/points';
 

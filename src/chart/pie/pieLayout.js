@@ -20,7 +20,7 @@
 
 import {parsePercent, linearMap} from '../../util/number';
 import labelLayout from './labelLayout';
-import * as zrUtil from '@okfe/zrender/src/core/util';
+import * as zrUtil from '@ok/zrender/src/core/util';
 
 var PI2 = Math.PI * 2;
 var RADIAN = Math.PI / 180;

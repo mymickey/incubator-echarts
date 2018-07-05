@@ -22,7 +22,7 @@
  * @module echarts/scale/Log
  */
 
-import * as zrUtil from '@okfe/zrender/src/core/util';
+import * as zrUtil from '@ok/zrender/src/core/util';
 import Scale from './Scale';
 import * as numberUtil from '../util/number';
 

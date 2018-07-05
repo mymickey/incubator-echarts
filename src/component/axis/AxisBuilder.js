@@ -17,14 +17,14 @@
 * under the License.
 */
 
-import {retrieve, defaults, extend, each} from '@okfe/zrender/src/core/util';
+import {retrieve, defaults, extend, each} from '@ok/zrender/src/core/util';
 import * as formatUtil from '../../util/format';
 import * as graphic from '../../util/graphic';
 import Model from '../../model/Model';
 import {isRadianAroundZero, remRadian} from '../../util/number';
 import {createSymbol} from '../../util/symbol';
-import * as matrixUtil from '@okfe/zrender/src/core/matrix';
-import {applyTransform as v2ApplyTransform} from '@okfe/zrender/src/core/vector';
+import * as matrixUtil from '@ok/zrender/src/core/matrix';
+import {applyTransform as v2ApplyTransform} from '@ok/zrender/src/core/vector';
 
 
 var PI = Math.PI;

@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import * as zrUtil from '@okfe/zrender/src/core/util';
+import * as zrUtil from '@ok/zrender/src/core/util';
 import {parsePercent} from '../util/number';
 import {isDimensionStacked} from '../data/helper/dataStackHelper';
 import createRenderPlanner from '../chart/helper/createRenderPlanner';

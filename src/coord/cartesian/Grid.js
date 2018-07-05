@@ -24,7 +24,7 @@
  */
 
 import {__DEV__} from '../../config';
-import {isObject, each, map, indexOf, retrieve} from '@okfe/zrender/src/core/util';
+import {isObject, each, map, indexOf, retrieve} from '@ok/zrender/src/core/util';
 import {getLayoutRect} from '../../util/layout';
 import {
     createScaleByModel,

@@ -17,8 +17,8 @@
 * under the License.
 */
 
-import * as curveTool from '@okfe/zrender/src/core/curve';
-import * as vec2 from '@okfe/zrender/src/core/vector';
+import * as curveTool from '@ok/zrender/src/core/curve';
+import * as vec2 from '@ok/zrender/src/core/vector';
 
 var v1 = [];
 var v2 = [];

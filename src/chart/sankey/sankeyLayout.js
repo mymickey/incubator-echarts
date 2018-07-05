@@ -24,7 +24,7 @@
 
 import * as layout from '../../util/layout';
 import nest from '../../util/array/nest';
-import * as zrUtil from '@okfe/zrender/src/core/util';
+import * as zrUtil from '@ok/zrender/src/core/util';
 import { __DEV__ } from '../../config';
 
 export default function (ecModel, api, payload) {

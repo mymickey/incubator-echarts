@@ -21,8 +21,8 @@ import {forceLayout} from './forceHelper';
 import {simpleLayout} from './simpleLayoutHelper';
 import {circularLayout} from './circularLayoutHelper';
 import {linearMap} from '../../util/number';
-import * as vec2 from '@okfe/zrender/src/core/vector';
-import * as zrUtil from '@okfe/zrender/src/core/util';
+import * as vec2 from '@ok/zrender/src/core/vector';
+import * as zrUtil from '@ok/zrender/src/core/util';
 
 export default function (ecModel) {
     ecModel.eachSeriesByType('graph', function (graphSeries) {

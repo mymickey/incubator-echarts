@@ -19,7 +19,7 @@
 
 import * as graphic from '../../util/graphic';
 import * as layout from '../../util/layout';
-import * as zrUtil from '@okfe/zrender/src/core/util';
+import * as zrUtil from '@ok/zrender/src/core/util';
 import {wrapTreePathInfo} from '../helper/treeHelper';
 
 var TEXT_PADDING = 8;

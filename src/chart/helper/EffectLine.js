@@ -24,10 +24,10 @@
 
 import * as graphic from '../../util/graphic';
 import Line from './Line';
-import * as zrUtil from '@okfe/zrender/src/core/util';
+import * as zrUtil from '@ok/zrender/src/core/util';
 import {createSymbol} from '../../util/symbol';
-import * as vec2 from '@okfe/zrender/src/core/vector';
-import * as curveUtil from '@okfe/zrender/src/core/curve';
+import * as vec2 from '@ok/zrender/src/core/vector';
+import * as curveUtil from '@ok/zrender/src/core/curve';
 
 /**
  * @constructor

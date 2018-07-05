@@ -17,10 +17,10 @@
 * under the License.
 */
 
-import * as zrUtil from '@okfe/zrender/src/core/util';
-import * as zrColor from '@okfe/zrender/src/tool/color';
-import * as eventUtil from '@okfe/zrender/src/core/event';
-import env from '@okfe/zrender/src/core/env';
+import * as zrUtil from '@ok/zrender/src/core/util';
+import * as zrColor from '@ok/zrender/src/tool/color';
+import * as eventUtil from '@ok/zrender/src/core/event';
+import env from '@ok/zrender/src/core/env';
 import * as formatUtil from '../../util/format';
 
 var each = zrUtil.each;

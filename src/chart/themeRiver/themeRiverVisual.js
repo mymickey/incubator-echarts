@@ -22,7 +22,7 @@
  * @author  Deqing Li(annong035@gmail.com)
  */
 
-import {createHashMap} from '@okfe/zrender/src/core/util';
+import {createHashMap} from '@ok/zrender/src/core/util';
 
 export default function (ecModel) {
     ecModel.eachSeriesByType('themeRiver', function (seriesModel) {

@@ -18,7 +18,7 @@
 */
 
 import * as echarts from '../../echarts';
-import {createHashMap, each} from '@okfe/zrender/src/core/util';
+import {createHashMap, each} from '@ok/zrender/src/core/util';
 
 echarts.registerProcessor({
 

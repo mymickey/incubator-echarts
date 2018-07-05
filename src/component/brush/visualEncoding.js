@@ -18,8 +18,8 @@
 */
 
 import * as echarts from '../../echarts';
-import * as zrUtil from '@okfe/zrender/src/core/util';
-import BoundingRect from '@okfe/zrender/src/core/BoundingRect';
+import * as zrUtil from '@ok/zrender/src/core/util';
+import BoundingRect from '@ok/zrender/src/core/BoundingRect';
 import * as visualSolution from '../../visual/visualSolution';
 import selector from './selector';
 import * as throttleUtil from '../../util/throttle';

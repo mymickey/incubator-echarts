@@ -17,8 +17,8 @@
 * under the License.
 */
 
-import * as zrUtil from '@okfe/zrender/src/core/util';
-import env from '@okfe/zrender/src/core/env';
+import * as zrUtil from '@ok/zrender/src/core/util';
+import env from '@ok/zrender/src/core/env';
 import {makeInner} from '../../util/model';
 
 var inner = makeInner();
